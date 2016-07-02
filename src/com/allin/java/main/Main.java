@@ -1,7 +1,10 @@
 package com.allin.java.main;
 
-import com.allin.java.algorithm.Sort;
-import com.allin.java.util.Factory;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import com.allin.java.annotation.TestAnno;
 
 /**
  * Main
@@ -22,6 +25,12 @@ public class Main {
 		
 //		String path = "C:\\Users\\a\\Desktop\\chanel.txt";
 //		ChanelUtil.getChanels(path);
+		
+//		new Some().stc();
+		
+		new TestAnno().testFun();
+		
+		
 	}
 	
 }
